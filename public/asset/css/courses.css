@@ -1,0 +1,297 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+} 
+
+.logo{
+    width: 170px;
+    height: 33.2px;
+    margin-top: 10px;
+}
+.container{
+     margin-top: 20px;
+}
+.row{
+    align-items: center;
+    position: relative;
+   
+}
+.navbar-nav{
+  margin-left: 20px;
+} 
+.navbar-nav li{
+    margin-right: 30px;
+}
+.navbar-nav li a{
+   color: black;
+   font-size: 15px;
+   font-weight: 600;
+   letter-spacing: 1px;
+   transition: .3s;
+}
+.navbar-nav li a:hover{
+    color: #6255A4;
+}
+.login{
+    color: white;
+    background-color:#4AABB0;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    padding : 13px 30px;
+    font-size: 1rem;
+    border-radius:15px;
+    transition: color .15s ease-in-out 
+}
+
+
+.background{
+    min-height: 65vh;
+    background-image:url(../images/header-img.png);
+    background-position: center;
+    background-size: cover;
+    margin-top: 25px;
+}
+
+.background h1{
+    font-size: 3.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 15%;
+    font-style: oblique;
+    font-weight: bold;
+
+}
+ 
+.btn-group{
+     border-radius: 15px;
+    border: solid rgba(133, 97, 97, 0.432) 3px;
+    
+}
+
+.btn-group {
+    margin-left:40%;
+    
+}
+
+.btn-group a{
+    color: antiquewhite;
+    display: inline-block;
+    margin: 2px 3px;
+    list-style: none;
+    text-transform: capitalize; 
+    text-decoration: none;
+
+}
+.btn-group a:hover{
+    color: skyblue;
+}
+
+.search img{
+    width: 130%;
+}
+
+.sec img{
+    width: 45px;    
+}
+
+.sec h5{
+    font-size: 19px;
+}
+
+.star-content i{
+    color: gold;
+    width: 9px;
+}
+
+.btn{
+    padding: 15px 20px;
+    background-color: #49abb0;
+    font-family: cursive;
+   
+}
+
+ .title3{
+    font-family:'Lucida Sans';
+    font-size: 2.6rem;
+
+}
+ .what{
+    border: none;
+} 
+.input-group {
+
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    box-shadow: 0 0 15px 0 rgb(0 0 0 / 20%);
+    border-radius: 15px;
+    margin-bottom: 30px;
+
+} 
+.card{
+    background-color: #291449d7;
+    border-radius: 15px;
+    margin-bottom: 145px;    
+}
+
+.card p{
+    line-height: 30px;
+    font-size: 16px;
+}
+
+.card h2{
+    font-size: 2.7rem;
+    font-family:'Trebuchet MS';
+}
+
+.card2{
+    background-color: #7221f3e8;
+    border-radius: 15px;
+}
+
+
+.card2{
+    border: none;
+}
+
+.card2 a{
+    color: #100820;
+    text-decoration: none;
+}
+
+
+.course-price{
+padding: 3px;
+margin-left: 2px;
+border-radius: 4px;
+background:#6255a4;
+color: #ffff;
+}
+
+h5{
+    font-weight: bold;
+    font-size: 1.6rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}   
+
+footer{
+    background-color:#100820;
+    
+   
+}
+
+.icon i{
+    
+    color: #6255a4;
+}
+
+footer p{
+
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+footer ul{
+    border: none;
+    list-style: none;
+    line-height: 30px;
+    margin-left: -20px;
+}
+.form-control{
+  
+    padding-right: 35px;
+    border: none;
+}
+
+
+.email i{
+font-size: 22px;
+ padding-top: 6px;
+}
+
+
+hr{
+    border: solid 1px;
+  
+}
+/* single course start */
+
+.beginner span{
+    color: #4b37af;
+}
+.beginner h1{
+    font-family: 'Trebuchet MS' ;
+    font-size: 3rem;
+
+}
+
+.group-icon{
+    background-color:rgba(170, 167, 167, 0.164);
+    list-style: none;
+    border: none; 
+    border-radius: 15px;
+}
+
+.group-icon:hover{
+    background-color: #6255a4;
+    color:white;
+   
+}
+
+.group-icon li{
+    padding: 10px 8px;
+   
+}
+
+
+.group-icon a{
+    text-decoration: none;
+  
+}
+
+.group-icon i{
+    font-size: 18px;
+    padding-right: 10px;
+}
+
+.group-icon span{
+ 
+    color: black;
+    font-size: 18px;
+    border: none;
+    font-style: italic;
+    font-family: cursive;
+  
+}
+
+
+.search p{
+    font-family: Cambria;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.req {
+    list-style: none;
+    border: none;
+    
+  
+}
+.req i{
+    color: #4b37af; 
+    margin-top: 5px;
+    
+}
+.req p{
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium';
+}
