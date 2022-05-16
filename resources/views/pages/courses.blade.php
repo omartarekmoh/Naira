@@ -148,7 +148,7 @@
                                     <video width="640" height="360" controls preload="none">
 {{--                                        <source src="{{ public_path() . "/uploads/{$video->video}" }}" type="video/mp4" />--}}
 {{--                                        <source src="{{ public_path() . "/uploads/{$video->video}" }}" type="video/webm" />--}}
-                                        <source src="{{ public_path() . "/uploads/{$video->video}" }}" type="video/ogg" /><!-- Firefox / Opera -->
+                                        <source src="{{ asset( "/uploads/{$video->video}") }}" type="video/ogg" /><!-- Firefox / Opera -->
                                     </video>
 
                                     <a>
