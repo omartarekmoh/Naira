@@ -138,10 +138,19 @@
                             {{--                            {{ public_path() . "/uploads/{$video->video}" }}--}}
                             <div class="col-md-4  wow bounce">
                                 <div class=" card2 bg-white mx-3">
-                                    <video width="320" height="240" controls>
-                                        <source src="{{ public_path() . "\uploads\\" . $video->video }}"
-                                                type="video/mp4">
+                                {{--                                    {{ public_path() . "\uploads\\" . $video->video }}--}}
+                                {{--                                    <iframe src="{{ public_path() . "\uploads\\" . $video->video }}"></iframe>--}}
+                                {{--                                    <video width="320" height="240" controls>--}}
+                                {{--                                        <source src="{{ public_path() . "\uploads\\" . $video->video }}"--}}
+                                {{--                                                type="video/mp4">--}}
+                                {{--                                    </video>--}}
+
+                                    <video width="640" height="360" controls preload="none">
+{{--                                        <source src="{{ public_path() . "/uploads/{$video->video}" }}" type="video/mp4" />--}}
+{{--                                        <source src="{{ public_path() . "/uploads/{$video->video}" }}" type="video/webm" />--}}
+                                        <source src="{{ public_path() . "/uploads/{$video->video}" }}" type="video/ogg" /><!-- Firefox / Opera -->
                                     </video>
+
                                     <a>
                                         <h5 class="card-title py-2 ms-2">{{ $video->name }}</h5>
                                     </a>
