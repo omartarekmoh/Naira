@@ -77,9 +77,29 @@
                 </div><!-- menu -->
 
 
-                <div class=" col-7 col-lg-3 col-md-6 col-sm-6 d-flex">
-                    <button type="button" class=" login mx-3">Login</button>
-                    <button type="button" class="login">Registration</button>
+                <div class=" col-7 col-lg-3 col-md-6 col-sm-6">
+                    @if (Route::has('login'))
+                        <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
+                            @auth
+                                <span>Welcome, {{ Auth::user()->name }}</span>
+                                <form method="POST" action="{{ route('logout') }}">
+                                    @csrf
+
+                                    <x-dropdown-link :href="route('logout')"
+                                                     onclick="event.preventDefault();
+                                                this.closest('form').submit();">
+                                        {{ __('Log Out') }}
+                                    </x-dropdown-link>
+                                </form>
+                            @else
+                                <a href="{{ route('login') }}" class="login mx-3">Log in</a>
+
+                                @if (Route::has('register'))
+                                    <a href="{{ route('register') }}" class="login mx-3">Register</a>
+                                @endif
+                            @endauth
+                        </div>
+                    @endif
 
                 </div><!-- buttons -->
             </div><!-- row -->

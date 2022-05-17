@@ -307,8 +307,9 @@
             </div><!-- copy right -->
             </div><!-- container -->
         </footer>
-        <script src="./js/bootstrap.bundle.min.js"></script>
-        <script src="js/wow.min.js"></script>
+        <script src="{{ asset('asset/js/script.js') }}"></script>
+        <script src="{{ asset('asset/js/bootstrap.bundle.min.js.js') }}"></script>
+        <script src="{{ asset('asset/js/wow.min.js.js') }}"></script>
         <script>
             new WOW().init();
         </script>
