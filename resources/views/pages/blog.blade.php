@@ -6,10 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/blog.css">
-    <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Render All Elements Normally -->
+    <link rel="stylesheet" href="{{ asset('asset/css/normalize.css') }}">
+    <!-- style file css -->
+    <link rel="stylesheet" href="{{ asset('asset/css/style.css') }}">
+    <!-- contact file css -->
+    <link rel="stylesheet" href="{{ asset('asset/css/contact.css') }}">
+    <!-- event file css -->
+    <link rel="stylesheet" href="{{ asset('asset/css/event.css') }}">
+    <!-- courses file css -->
+    <link rel="stylesheet" href="{{ asset('asset/css/courses.css') }}">
+    <!-- blog file css -->
+    <link rel="stylesheet" href="{{ asset('asset/css/blog.css') }}">
+    <!-- bootstrap file -->
+    <link rel="stylesheet" href="{{ asset('asset/css/bootstrap.min.css') }}">
+    <!-- fontawseom -->
+    <link rel="stylesheet" href="{{ asset('asset/css/all.min.css') }}">
 </head>
 
 <body>
@@ -19,7 +31,7 @@
                 <div class=" col-4 col-lg-2 col-md-4 col-sm-4">
                     <a
                         href="https://www.templatemonsterpreview.com/demo/228900.html?_gl=1*xpg7wf*_ga*ODc0NjIxMDc4LjE2NDYzMjI3MTI.*_ga_FTPYEGT5LY*MTY0NjMzNDM3My4yLjEuMTY0NjMzNDQxMy4yMA..&_ga=2.190862954.153322118.1646322713-874621078.1646322712"><img
-                            src="./images/logo1.jpg" alt="" class="logo"></a>
+                            src="{{ asset('asset/images/logo1.jpg') }}" alt="" class="logo"></a>
                 </div><!-- logo -->
                 <div class="col-1 col-lg-7 col-md-2 col-sm-2">
                     <nav class="navbar navbar-expand-lg  ">
@@ -41,7 +53,7 @@
                                       <li class="nav-item">
                                         <a class="nav-link" href="event.html">Events</a>
                                       </li>
-                                    
+
                                       <li class="dropdown nav-item">
                                         <a class="nav-link"  data-bs-toggle="dropdown" >
                                           Courses
@@ -49,7 +61,7 @@
                                         <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
                                           <li><a class="dropdown-item " href="courses.html">courese</a></li>
                                           <li><a class="dropdown-item" href="single-course.html">single-course </a></li>
-                                          
+
                                         </ul>
                                       </li>
                                       <li class="nav-item">
@@ -98,7 +110,7 @@
 
         </div>
         <div>
-            <img src="images/single_1.png" height="500" alt="">
+            <img src="{{ asset('asset/images/single_1.png') }}" height="500" alt="">
 
 
         </div>
@@ -139,7 +151,7 @@
                         laoreet ante volutpat. Quisque feugiat dapibus turpis, nec egestas sem hendrerit pellentesque.
                         Duis ac sollicitudin eros</p>
 
-                    <img src="images/single_2.png" width="100%" alt="">
+                    <img src="{{ asset('asset/images/single_2.png') }}" width="100%" alt="">
 
                     <h1 class="text1 pt-5 ">2. Moving On To The Second Subtitle Of The Post</h1>
                     <p class="text-muted pt-4">Sed eu elementum erat. Mauris molestie et felis vitae maximus. Nullam at
@@ -150,7 +162,7 @@
                     <p class="text-muted">In vel malesuada magna, non gravida sem. Ut a condimentum mi. Morbi neque
                         libero, consequat ut efficitur a, cursus ac lorem. Ut varius nisi at libero ultrices</p>
 
-                    <img src="images/piechart.png" width="40%" alt="">
+                    <img src="{{ asset('asset/images/piechart.png') }}" width="40%" alt="">
                     <p class="text-muted pt-4">
                         Curabitur nibh leo, facilisis eu interdum sed, pellentesque eu felis. Suspendisse porttitor
                         aliquet convallis. Nullam cursus viverra massa, et suscipit odio vehicula ac. Mauris ac iaculis
@@ -165,7 +177,7 @@
                         suscipit urna</p>
 
 
-                    <img src="images/single_3.png" width="100%" alt="">
+                    <img src="{{ asset('asset/images/single_3.png') }}" width="100%" alt="">
                     <p class="text-muted pt-4">
                         Aenean eget imperdiet orci. Aenean sit amet tristique nisl, ut rhoncus eros. Curabitur euismod,
                         ante vitae iaculis consectetur, elit ex pharetra justo, vitae gravida justo ipsum ac nisl.
@@ -183,7 +195,7 @@
                     <div class="container py-5">
                         <div class="row " id="impotant">
                             <div class="col-md-6 ">
-                                <img src="images/blog_1 (1).jpg" width="100%" class="pt-2 friends" alt="">
+                                <img src="{{ asset('asset/images/blog_1 (1).png') }}" width="100%" class="pt-2 friends" alt="">
                                 <div class="  trending">
 
                                     <h3 class="text-center pt-4 space">The importance of learning</h3>
@@ -208,13 +220,13 @@
 
 
                             <div class="col-md-6 ">
-                                <img src="images/blog_2.jpg" width="100%" class="pt-1" alt="">
+                                <img src="{{ asset('asset/images/blog_2.png') }}" width="100%" class="pt-1" alt="">
                                 <div class="  trending">
                                     <h3 class="text-center pt-3 space">Create the best space</h3>
                                     <p class="text-center text-muted ">Pellentesque mollis, lorem vel auctor blandit, eros
                                         risus sollicitudin nibh, vitae convallis libero risus non tortor. Pellentesque
                                         senectus et netus</p>
-                                    
+
                                     <div class="d-flex ps-3 pt-2 ">
                                         <div class="d-flex mt-3">
                                             <i class="far fa-user-circle pt-1"></i>
@@ -230,7 +242,7 @@
                                 </div>
                             </div><!-- 2 -->
 
-                          
+
 
 
 
@@ -263,7 +275,7 @@
             <div class="row">
 
                 <div class="col-md-3 mx-2">
-                    <img src="images/logo_3.png" alt="">
+                    <img src="{{ asset('asset/images/logo_3.png') }}" alt="">
                     <p class="py-4 text-muted">All you need to know about being able to communicate to large audiences.
                         Find out more about how
                         to calm yourself.</p>
@@ -323,8 +335,12 @@
 
 
 
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/script.js"></script>
+    <script src="{{ asset('asset/js/script.js') }}"></script>
+    <script src="{{ asset('asset/js/bootstrap.bundle.min.js.js') }}"></script>
+    <script src="{{ asset('asset/js/wow.min.js.js') }}"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 
 </html>
