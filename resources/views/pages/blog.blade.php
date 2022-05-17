@@ -45,31 +45,34 @@
                             <div class="collapse navbar-collapse" id="navbarNav">
                                 <ul class="navbar-nav ">
                                     <li class="nav-item">
-                                        <a class="nav-link " aria-current="page" style="color: #6255A4;" href="index.html">Home</a>
-                                      </li>
-                                      <li class="nav-item">
-                                        <a class="nav-link" href="about.html">About</a>
-                                      </li>
-                                      <li class="nav-item">
-                                        <a class="nav-link" href="event.html">Events</a>
-                                      </li>
-
-                                      <li class="dropdown nav-item">
-                                        <a class="nav-link"  data-bs-toggle="dropdown" >
-                                          Courses
+                                        <a class="nav-link " aria-current="page"
+                                           style="color: #6255A4;" href="{{ route('index') }}">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="{{ route('about') }}">About</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="{{ route('event') }}">Events</a>
+                                    </li>
+                                    <li class="dropdown nav-item">
+                                        <a class="nav-link" data-bs-toggle="dropdown">
+                                            Courses
                                         </a>
-                                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
-                                          <li><a class="dropdown-item " href="courses.html">courese</a></li>
-                                          <li><a class="dropdown-item" href="single-course.html">single-course </a></li>
+                                        <ul class="dropdown-menu dropdown-menu-dark"
+                                            aria-labelledby="dropdownMenuButton2">
+                                            <li><a class="dropdown-item " href="{{ route('courses') }}">courese</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="{{ route('single-course') }}">single-course </a>
+                                            </li>
 
                                         </ul>
-                                      </li>
-                                      <li class="nav-item">
-                                        <a class="nav-link " href="blog.html">Blog</a>
-                                      </li>
-                                      <li class="nav-item">
-                                        <a class="nav-link " href="contact.html">Contact</a>
-                                      </li>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="{{ route('blog') }}">Blog</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="{{ route('contact') }}">Contact</a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -114,8 +117,8 @@
 
             <div class="btn-group pt-2 maro text-center">
                 <ul class="list">
-                    <li><a href="index.html"> home / </a></a></li>
-                    <li><a class="px-lg-1" href="blog.html"> Blog /</a></li>
+                    <li><a href="{{ route('index') }}"> home / </a></a></li>
+                    <li><a class="px-lg-1" href="{{ route('blog') }}"> Blog /</a></li>
                     <li> <a class="px-3 text-info" href="#important"> The importance of learning</a></li>
                 </ul>
 
