@@ -128,7 +128,7 @@
                 <div class="row">
                     <div class="all">
                         <div class="col-md-6">
-                            <a href="#"><img src="images/img-1.jpg" alt=""></a>
+                            <a href="#"><img src="{{ asset('asset/images/img-1.jpg') }}" alt=""></a>
                             <div class="meta">
                                 <span class="date" itemprop="datePublished">05 February 2022</span>
                                 <span class="category">Constanta, Romania</span>
@@ -150,7 +150,7 @@
                 <div class="row">
                     <div class="all">
                         <div class="col-md-6">
-                            <a href="#"><img src="images/img-2.jpg" alt=""></a>
+                            <a href="#"><img src="{{ asset('asset/images/img-2.jpg') }}" alt=""></a>
                             <div class="meta">
                                 <span class="date" itemprop="datePublished">05 February 2022</span>
                                 <span class="category">Constanta, Romania</span>
@@ -172,7 +172,7 @@
                 <div class="row">
                     <div class="all">
                         <div class="col-md-6">
-                            <a href="#"><img src="images/img-3.jpg" alt=""></a>
+                            <a href="#"><img src="{{ asset('asset/images/img-3.jpg') }}" alt=""></a>
                             <div class="meta">
                                 <span class="date" itemprop="datePublished">05 February 2022</span>
                                 <span class="category">Constanta, Romania</span>
@@ -194,7 +194,7 @@
                 <div class="row">
                     <div class="all">
                         <div class="col-md-6">
-                            <a href="#"><img src="images/img-4.jpg" alt=""></a>
+                            <a href="#"><img src="{{ asset('asset/images/img-4.jpg') }}" alt=""></a>
                             <div class="meta">
                                 <span class="date" itemprop="datePublished">05 February 2022</span>
                                 <span class="category">Constanta, Romania</span>
@@ -216,7 +216,7 @@
                 <div class="row">
                     <div class="all">
                         <div class="col-md-6">
-                            <a href="#"><img src="images/img-5.jpg" alt=""></a>
+                            <a href="#"><img src="{{ asset('asset/images/img-5.jpg') }}" alt=""></a>
                             <div class="meta">
                                 <span class="date" itemprop="datePublished">05 February 2022</span>
                                 <span class="category">Constanta, Romania</span>
@@ -238,7 +238,7 @@
                 <div class="row">
                     <div class="all">
                         <div class="col-md-6">
-                            <a href="#"><img src="images/img-6.jpg" alt=""></a>
+                            <a href="#"><img src="{{ asset('asset/images/img-6.jpg') }}" alt=""></a>
                             <div class="meta">
                                 <span class="date" itemprop="datePublished">05 February 2022</span>
                                 <span class="category">Constanta, Romania</span>
@@ -263,7 +263,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-3 mx-2">
-                        <img src="images/logo_3.png" alt="">
+                        <img src="{{ asset('asset/images/logo_3.png') }}" alt="">
                         <p class="py-4">All you need to know about being able to communicate to large audiences.
                             Find out more about how
                             to calm yourself.</p>
