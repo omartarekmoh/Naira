@@ -6,21 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
-    <!-- Render All Elements Normally -->
+
     <link rel="stylesheet" href="{{ asset('asset/css/normalize.css') }}">
-    <!-- style file css -->
-    <link rel="stylesheet" href="{{ asset('asset/css/style.css') }}">
-    <!-- contact file css -->
-    <link rel="stylesheet" href="{{ asset('asset/css/contact.css') }}">
-    <!-- event file css -->
-    <link rel="stylesheet" href="{{ asset('asset/css/event.css') }}">
-    <!-- courses file css -->
-    <link rel="stylesheet" href="{{ asset('asset/css/courses.css') }}">
-    <!-- blog file css -->
     <link rel="stylesheet" href="{{ asset('asset/css/blog.css') }}">
-    <!-- bootstrap file -->
     <link rel="stylesheet" href="{{ asset('asset/css/bootstrap.min.css') }}">
-    <!-- fontawseom -->
     <link rel="stylesheet" href="{{ asset('asset/css/all.min.css') }}">
 </head>
 
@@ -54,19 +43,11 @@
                                     <li class="nav-item">
                                         <a class="nav-link" href="{{ route('event') }}">Events</a>
                                     </li>
-                                    <li class="dropdown nav-item">
-                                        <a class="nav-link" data-bs-toggle="dropdown">
-                                            Courses
-                                        </a>
-                                        <ul class="dropdown-menu dropdown-menu-dark"
-                                            aria-labelledby="dropdownMenuButton2">
-                                            <li><a class="dropdown-item " href="{{ route('courses') }}">courese</a>
-                                            </li>
-                                            <li><a class="dropdown-item" href="{{ route('single-course') }}">single-course </a>
-                                            </li>
 
-                                        </ul>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="{{ route('courses') }}">Courses</a>
                                     </li>
+
                                     <li class="nav-item">
                                         <a class="nav-link " href="{{ route('blog') }}">Blog</a>
                                     </li>

@@ -35,6 +35,7 @@
                                 </button>
                                 <div class="collapse navbar-collapse" id="navbarNav">
                                     <ul class="navbar-nav ">
+
                                         <li class="nav-item">
                                             <a class="nav-link " aria-current="page"
                                                style="color: #6255A4;" href="{{ route('index') }}">Home</a>
@@ -45,19 +46,11 @@
                                         <li class="nav-item">
                                             <a class="nav-link" href="{{ route('event') }}">Events</a>
                                         </li>
-                                        <li class="dropdown nav-item">
-                                            <a class="nav-link" data-bs-toggle="dropdown">
-                                                Courses
-                                            </a>
-                                            <ul class="dropdown-menu dropdown-menu-dark"
-                                                aria-labelledby="dropdownMenuButton2">
-                                                <li><a class="dropdown-item " href="{{ route('courses') }}">courese</a>
-                                                </li>
-                                                <li><a class="dropdown-item" href="{{ route('single-course') }}">single-course </a>
-                                                </li>
 
-                                            </ul>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="{{ route('courses') }}">Courses</a>
                                         </li>
+
                                         <li class="nav-item">
                                             <a class="nav-link " href="{{ route('blog') }}">Blog</a>
                                         </li>

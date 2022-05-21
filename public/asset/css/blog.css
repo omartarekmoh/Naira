@@ -12,11 +12,11 @@
 .row{
     align-items: center;
     position: relative;
-   
+
 }
 .navbar-nav{
   margin-left: 20px;
-} 
+}
 .navbar-nav li{
     margin-right: 30px;
 }
@@ -44,7 +44,7 @@
     padding : 13px 30px;
     font-size: 1rem;
     border-radius:15px;
-    transition: color .15s ease-in-out 
+    transition: color .15s ease-in-out
 }
 .background{
     min-height: 65vh;
@@ -62,24 +62,24 @@
 
 }
  .maro{
-     
+
      margin-left: 35%;
-     
+
  }
 .list{
      border-radius: 15px;
-    border: solid rgba(133, 97, 97, 0.432) 3px; 
+    border: solid rgba(133, 97, 97, 0.432) 3px;
    display: flex;
    list-style: none;
    justify-content: center;
    align-items: center;
-   
- 
+
+
 }
 
 /* .btn-group {
     margin-left:40%;
-    
+
 } */
 
 .list a{
@@ -87,7 +87,7 @@
     display: inline-block;
     margin: 6px 5px;
     list-style: none;
-    text-transform: capitalize; 
+    text-transform: capitalize;
     text-decoration: none;
 
 }
@@ -110,14 +110,14 @@
 }
 .box li{
     font-size: 17px;
-    
-    
+
+
 
 }
 .box li :hover{
     color: #6255A4;
 
-    
+
 
 
 }
@@ -128,7 +128,7 @@
 
 }
 .text1{
- 
+
     color: #10133A;
     font-weight: 700;
     font-size: 50px;
@@ -141,7 +141,7 @@
     border-bottom-right-radius: 12px;
     border: #ffff 1px solid ;
     box-shadow: 0 0 15px 0 rgb(0 0 0 / 10%);
-    
+
 }
 .trending img{
     border-radius: 30px 30px 0px 0px;
@@ -150,7 +150,7 @@
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
 }
-.date{margin: 2% 0% 0% 50%;}
+
 
 .space{
     color: #10133A;
@@ -158,12 +158,12 @@
 }
 
 
-footer{
+footer{z
     background-color:#100820;
 }
 
 .icon i{
-    
+
     color: #6255a4;
 }
 
@@ -181,7 +181,7 @@ footer ul{
     margin-left: -20px;
 }
 .form-control{
-  
+
     padding-right: 35px;
     border: none;
 }
@@ -195,17 +195,17 @@ font-size: 22px;
 
 hr{
     border: solid 1px;
-    
+
 }
 .Summary{
-   margin-bottom: 235%; 
-   
+   margin-bottom: 235%;
+
 }
 /* .friends{
     transition: 0.5s;
-    
+
 }
 .friends:hover{
     transform: scale(1.1) rotate(5deg);
-    
+
 } */

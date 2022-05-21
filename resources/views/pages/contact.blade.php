@@ -4,22 +4,10 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatble" content="IE-edge">
         <title>Contact</title>
-        <!-- Render All Elements Normally -->
-        <link rel="stylesheet" href="{{ asset('asset/css/normalize.css') }}">
-        <!-- style file css -->
-        <link rel="stylesheet" href="{{ asset('asset/css/style.css') }}">
-        <!-- contact file css -->
-        <link rel="stylesheet" href="{{ asset('asset/css/contact.css') }}">
-        <!-- event file css -->
-        <link rel="stylesheet" href="{{ asset('asset/css/event.css') }}">
-        <!-- courses file css -->
-        <link rel="stylesheet" href="{{ asset('asset/css/courses.css') }}">
-        <!-- blog file css -->
-        <link rel="stylesheet" href="{{ asset('asset/css/blog.css') }}">
-        <!-- bootstrap file -->
-        <link rel="stylesheet" href="{{ asset('asset/css/bootstrap.min.css') }}">
-        <!-- fontawseom -->
         <link rel="stylesheet" href="{{ asset('asset/css/all.min.css') }}">
+        <link rel="stylesheet" href="{{ asset('asset/css/bootstrap.min.css') }}">
+        <link rel="stylesheet" href="{{ asset('asset/css/animate.css') }}">
+        <link rel="stylesheet" href="{{ asset('asset/css/contact.css') }}">
     </head>
     <body>
         <header class="navv">
@@ -28,7 +16,7 @@
                     <div class=" col-4 col-lg-2 col-md-4 col-sm-4">
                         <a
                             href="https://www.templatemonsterpreview.com/demo/228900.html?_gl=1*xpg7wf*_ga*ODc0NjIxMDc4LjE2NDYzMjI3MTI.*_ga_FTPYEGT5LY*MTY0NjMzNDM3My4yLjEuMTY0NjMzNDQxMy4yMA..&_ga=2.190862954.153322118.1646322713-874621078.1646322712"><img
-                                src="./images/logo1.jpg" alt="" class="logo"></a>
+                                src="{{ asset('asset/images/logo1.jpg') }}" alt="" class="logo"></a>
                     </div><!-- logo -->
                     <div class="col-1 col-lg-7 col-md-2 col-sm-2">
                         <nav class="navbar navbar-expand-lg  ">
@@ -103,7 +91,7 @@
                     <div class="col-md-3">
                         <div class="one">
                             <div class="country">
-                                <img src="images/USA.png" alt="">
+                                <img src="{{ asset('asset/images/USA.png') }}" alt="">
                                 <h3>U.S.A</h3>
                             </div>
                             <p>(+024) 582 91 149</p>
@@ -112,7 +100,7 @@
                     <div class="col-md-3">
                         <div class="two">
                             <div class="country">
-                                <img src="images/France.png" alt="">
+                                <img src="{{ asset('asset/images/France.png') }}" alt="">
                                 <h3>France</h3>
                             </div>
                             <p>(+054) 292 11 465</p>
@@ -121,7 +109,7 @@
                     <div class="col-md-3">
                         <div class="three">
                             <div class="country">
-                                <img src="images/India.png" alt="">
+                                <img src="{{ asset('asset/images/India.png') }}" alt="">
                                 <h3>India</h3>
                             </div>
                             <p>(+012) 797 73 551</p>
@@ -130,7 +118,7 @@
                     <div class="col-md-3">
                         <div class="four">
                             <div class="country">
-                                <img src="images/Australia.png" alt="">
+                                <img src="{{ asset('asset/images/Australia.png') }}" alt="">
                                 <h3>Australia</h3>
                             </div>
                             <p>(+088) 512 13 439</p>
@@ -234,7 +222,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-3 mx-2">
-                        <img src="images/logo_3.png" alt="">
+                        <img src="{{ asset('asset/images/logo_3.png') }}" alt="">
                         <p class="py-4">All you need to know about being able to communicate to large audiences.
                             Find out more about how
                             to calm yourself.</p>
@@ -278,8 +266,8 @@
             </div><!-- copy right -->
             </div><!-- container -->
         </footer>
-        <script src="./js/bootstrap.bundle.min.js"></script>
-        <script src="js/wow.min.js"></script>
+        <script src="{{ asset('asset/js/bootstrap.bundle.min.js') }}"></script>
+        <script src="{{ asset('asset/js/wow.min.js') }}"></script>
         <script>
             new WOW().init();
         </script>

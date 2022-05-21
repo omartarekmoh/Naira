@@ -11,13 +11,13 @@
         <!-- style file css -->
         <link rel="stylesheet" href="{{ asset('asset/css/style.css') }}">
         <!-- contact file css -->
-        <link rel="stylesheet" href="{{ asset('asset/css/contact.css') }}">
+{{--        <link rel="stylesheet" href="{{ asset('asset/css/contact.css') }}">--}}
         <!-- event file css -->
-        <link rel="stylesheet" href="{{ asset('asset/css/event.css') }}">
+{{--        <link rel="stylesheet" href="{{ asset('asset/css/event.css') }}">--}}
         <!-- courses file css -->
-        <link rel="stylesheet" href="{{ asset('asset/css/courses.css') }}">
+{{--        <link rel="stylesheet" href="{{ asset('asset/css/courses.css') }}">--}}
         <!-- blog file css -->
-        <link rel="stylesheet" href="{{ asset('asset/css/blog.css') }}">
+{{--        <link rel="stylesheet" href="{{ asset('asset/css/blog.css') }}">--}}
         <!-- bootstrap file -->
         <link rel="stylesheet" href="{{ asset('asset/css/bootstrap.min.css') }}">
         <!-- fontawseom -->
