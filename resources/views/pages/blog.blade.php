@@ -254,7 +254,7 @@
 
                                         <div class="d-flex ps-3 pt-2 ">
                                             <div class="d-flex mt-3">
-                                                <i class="far fa-user-circle pt-1"></i>
+                                                <i class="fiefar fa-user-circle pt-1"></i>
                                                 <p class="text-muted ps-1">admin</p>
                                             </div>
                                             <div class="d-flex date ">

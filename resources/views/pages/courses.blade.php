@@ -138,17 +138,18 @@
                             {{--                            {{ public_path() . "/uploads/{$video->video}" }}--}}
                             <div class="col-md-4  wow bounce">
                                 <div class=" card2 bg-white mx-3">
-                                {{--                                    {{ public_path() . "\uploads\\" . $video->video }}--}}
-                                {{--                                    <iframe src="{{ public_path() . "\uploads\\" . $video->video }}"></iframe>--}}
-                                {{--                                    <video width="320" height="240" controls>--}}
-                                {{--                                        <source src="{{ public_path() . "\uploads\\" . $video->video }}"--}}
-                                {{--                                                type="video/mp4">--}}
-                                {{--                                    </video>--}}
+                                    {{--                                    {{ public_path() . "\uploads\\" . $video->video }}--}}
+                                    {{--                                    <iframe src="{{ public_path() . "\uploads\\" . $video->video }}"></iframe>--}}
+                                    {{--                                    <video width="320" height="240" controls>--}}
+                                    {{--                                        <source src="{{ public_path() . "\uploads\\" . $video->video }}"--}}
+                                    {{--                                                type="video/mp4">--}}
+                                    {{--                                    </video>--}}
 
                                     <video width="640" height="360" controls preload="none">
-{{--                                        <source src="{{ public_path() . "/uploads/{$video->video}" }}" type="video/mp4" />--}}
-{{--                                        <source src="{{ public_path() . "/uploads/{$video->video}" }}" type="video/webm" />--}}
-                                        <source src="{{ asset( "/uploads/{$video->video}") }}" type="video/ogg" /><!-- Firefox / Opera -->
+                                        {{--                                        <source src="{{ public_path() . "/uploads/{$video->video}" }}" type="video/mp4" />--}}
+                                        {{--                                        <source src="{{ public_path() . "/uploads/{$video->video}" }}" type="video/webm" />--}}
+                                        <source src="{{ asset( "/uploads/{$video->video}") }}" type="video/ogg" />
+                                        <!-- Firefox / Opera -->
                                     </video>
 
                                     <a>
@@ -173,7 +174,7 @@
                 <div class="row">
 
                     <div class="col-md-3 mx-2">
-                        <img src="images/logo_3.png" alt="">
+                        <img src="{{ asset('asset/images/logo_3.png') }}" alt="">
                         <p class="py-4 text-muted">All you need to know about being able to communicate to large
                             audiences.
                             Find out more about how
